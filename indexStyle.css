@@ -1,0 +1,198 @@
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    display: block;
+}
+img{
+    block-size: 270px;
+}
+#myVid{
+    position: fixed;
+    right: 0;
+    bottom: -20px;
+    min-width: 100%;
+    max-width: 100%;
+    z-index: -100;
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+}
+
+        /* Navigation bar */
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    top: 0;
+}
+
+#navbar li{
+    float: left;
+    padding: 15px 20px 15px 20px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+#navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color: rgb(128, 128, 128);
+}
+#nav {
+    font: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+}   
+
+        /* header h1 h2 */
+#section0{
+    text-transform: none;
+    text-align: center;
+    line-height: 10px;
+}
+
+        /* main */
+.section1 h3{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    letter-spacing: 2px;
+    margin-bottom: -5px;
+}
+.section1{
+    display: grid;
+}
+#imgHa1{
+    float: right;
+    padding: 1px;
+    border: solid black 1px;
+    margin-right: 250px;
+}
+#imgHa2{
+    float: right;
+    padding: 1px;
+    border: solid black 1px;
+    margin-right: 25px;
+}
+.para1{
+    font-size: 21px;
+    margin-left: 100px;
+    letter-spacing: 1px;
+}
+
+        /*secondary*/
+
+.section2{
+    display: grid;
+}
+.section2 h4{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    letter-spacing: 2px;
+    margin-bottom: -5px;
+}
+#img2{
+    float: right;
+    clear: right;
+    padding: 2px;
+    margin-right: 350px;
+    border: solid black 1px;
+}
+.para2{
+    font-size: 21px;
+    margin-left: 100px;
+    letter-spacing: 2px;
+}
+
+
+        /*sport*/
+.section3{
+    display: grid;
+}
+.section3 header{
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: -5px;
+    text-align: center;
+}
+.sportClubList ul li{
+    float: left;
+    overflow: hidden;
+}
+.sport a{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 450px;
+}
+.sport img{
+    float: right;
+    clear: right;
+    padding: 1x;
+    margin-right: 550px;
+    border: solid black 1px;
+}
+.sport p{
+    font-size: 18px;
+    margin-left: 450px;
+    letter-spacing: 2px;
+}
+
+
+
+        /*Referral*/
+referral header{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    text-decoration: ;
+}
+.container{
+    margin-left: 250px;
+    margin-right: 400px;
+}
+.container p{
+    font-size: 18px;
+}
+.container ol li{
+    font-size: 18px;
+}
+
+
+        /* Contact */
+#contactcontent header{
+    font-size: 20px;
+}
+input[type=text], input[type=email]{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+textarea{
+    height: 10px;
+    width: 100%;
+}
+
+
+
+
